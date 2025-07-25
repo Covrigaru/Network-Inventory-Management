@@ -1,0 +1,8 @@
+Network Management KPIs:
+  - Total number of VNets by environment
+  - Network utilization percentages
+  - Peering connections and traffic flow
+  - Network security group rule counts
+  - Unused or underutilized networks
+  - Network costs by resource group
+  - Compliance score by network

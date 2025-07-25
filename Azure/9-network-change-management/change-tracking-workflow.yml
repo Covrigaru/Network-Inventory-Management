@@ -1,0 +1,20 @@
+Network Change Process:
+  1. Request Phase:
+    - Submit change request with business justification
+    - Include network diagrams and impact analysis
+    - Specify rollback procedures
+    
+  2. Review Phase:
+    - Network team review
+    - Security team approval
+    - Change Advisory Board (CAB) approval
+    
+  3. Implementation Phase:
+    - Schedule maintenance window
+    - Execute change with monitoring
+    - Validate functionality
+    
+  4. Documentation Phase:
+    - Update network inventory
+    - Update network diagrams
+    - Document lessons learned
