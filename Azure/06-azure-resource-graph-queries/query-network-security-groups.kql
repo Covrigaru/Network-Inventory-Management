@@ -1,0 +1,5 @@
+Resources
+| where type == "microsoft.network/networksecuritygroups"
+| extend Environment = tags.Environment
+| project name, resourceGroup, location, properties.subnets, Environment, subscriptionId
+| order by Environment asc

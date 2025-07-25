@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # Get network costs by resource group
 az consumption usage list \
   --start-date "2024-01-01" \

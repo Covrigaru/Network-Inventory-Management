@@ -1,0 +1,7 @@
+Resources
+| where type == "microsoft.network/virtualnetworks"
+| extend Environment = tags.Environment
+| extend Owner = tags.Owner
+| extend CostCenter = tags.CostCenter
+| project name, resourceGroup, location, properties.addressSpace.addressPrefixes, Environment, Owner, CostCenter, subscriptionId
+| order by Environment asc, name asc

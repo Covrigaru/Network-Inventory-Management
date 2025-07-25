@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 # Create connection monitor for critical network paths
 az network watcher connection-monitor create \

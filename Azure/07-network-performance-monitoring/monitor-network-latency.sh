@@ -1,5 +1,4 @@
-
-
+#!/bin/bash
 
 # Test network connectivity between regions
 az network watcher test-connectivity \

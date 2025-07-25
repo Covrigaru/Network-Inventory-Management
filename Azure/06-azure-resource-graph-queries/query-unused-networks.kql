@@ -1,0 +1,6 @@
+Resources
+| where type == "microsoft.network/virtualnetworks"
+| extend SubnetCount = array_length(properties.subnets)
+| extend HasVMs = array_length(properties.subnets[0].properties.ipConfigurations) > 0
+| where SubnetCount == 0 or not(HasVMs)
+| project name, resourceGroup, location, SubnetCount, HasVMs

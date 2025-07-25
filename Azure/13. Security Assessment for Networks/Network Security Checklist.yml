@@ -1,0 +1,21 @@
+Security Validation:
+  Network Segmentation:
+    - ✅ Production isolated from non-production
+    - ✅ DMZ properly configured
+    - ✅ Database tier isolated
+    
+  Access Controls:
+    - ✅ NSGs configured with least privilege
+    - ✅ No direct internet access to internal resources
+    - ✅ Bastion or VPN for administrative access
+    
+  Monitoring:
+    - ✅ NSG flow logs enabled
+    - ✅ Network Watcher configured
+    - ✅ Security Center monitoring enabled
+    
+  Compliance:
+    - ✅ Required tags applied
+    - ✅ Naming conventions followed
+    - ✅ Documentation up to date
+    
