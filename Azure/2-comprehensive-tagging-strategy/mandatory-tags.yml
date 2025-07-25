@@ -1,0 +1,31 @@
+Required Tags:
+  Environment: 
+    - "Production" 
+    - "Development" 
+    - "Testing" 
+    - "Staging"
+  Owner: "team-email@company.com"
+  CostCenter: "CC-XXXX"
+  Project: "ProjectName"
+  Application: "ApplicationName"
+  Criticality: 
+    - "Critical" 
+    - "High" 
+    - "Medium" 
+    - "Low"
+  DataClassification: 
+    - "Confidential" 
+    - "Internal" 
+    - "Public"
+  
+Optional Tags:
+  CreatedDate: "YYYY-MM-DD"
+  LastReviewed: "YYYY-MM-DD"
+  ExpiryDate: "YYYY-MM-DD"
+  BackupRequired: 
+    - "Yes" 
+    - "No"
+  MonitoringEnabled: 
+    - "Yes" 
+    - "No"
+  ComplianceFramework: "SOC2,ISO27001,GDPR"

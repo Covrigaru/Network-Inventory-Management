@@ -1,0 +1,11 @@
+VNets:
+  - prod-eastus-hub-001
+  - prod-eastus-spoke-web-001
+  - dev-westus-spoke-app-001
+  - test-centralus-spoke-db-001
+
+Subnets:
+  - prod-web-subnet-001
+  - prod-app-subnet-001
+  - prod-db-subnet-001
+  - mgmt-bastion-subnet-001
